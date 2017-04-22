@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/webmozart/assert" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/dnoegel/php-xdg-base-dir" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/doctrine/inflector" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/doctrine/instantiator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/erusev/parsedown" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/fzaninotto/faker" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/hamcrest/hamcrest-php" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/jakub-onderka/php-console-color" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/jakub-onderka/php-console-highlighter" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/laravel/framework" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/laravel/tinker" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/league/flysystem" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/mockery/mockery" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/monolog/monolog" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/mtdowling/cron-expression" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/myclabs/deep-copy" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/nesbot/carbon" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/nikic/php-parser" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/paragonie/random_compat" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/reflection-common" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/reflection-docblock" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpdocumentor/type-resolver" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpspec/prophecy" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-code-coverage" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-file-iterator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-text-template" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-timer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/php-token-stream" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit-mock-objects" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/psy/psysh" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/ramsey/uuid" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/code-unit-reverse-lookup" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/comparator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/diff" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/environment" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/exporter" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/global-state" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/object-enumerator" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/recursion-context" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/resource-operations" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/sebastian/version" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/swiftmailer/swiftmailer" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/http-foundation" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/http-kernel" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/process" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/routing" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/var-dumper" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/symfony/yaml" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/tijsverkoyen/css-to-inline-styles" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/vlucas/phpdotenv" />
+          <root url="file://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/webmozart/assert" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP Runtime" type="php">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../laravelapp/catalogoninja/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+          <root url="phar://$MODULE_DIR$/vendor/phpunit/phpunit/tests/_files/phpunit-example-extension/tools/phpunit.d/phpunit-example-extension-1.0.0.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
