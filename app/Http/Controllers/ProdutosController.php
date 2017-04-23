@@ -26,4 +26,20 @@ class ProdutosController extends Controller
         return view('produto.create');
     }
 
+    public function store(Request $request)
+    {
+        $this->validate($request, [
+            'referencia' => 'required|unique:produtos|min:3',
+            'titulo' => 'required|min:3',
+        ]);
+        $produto = new Produto();
+        $produto->referencia = $request->input('referencia');
+        $produto->titulo = $request->input('titulo');
+        $produto->descricao = $request->input('descricao');
+        $produto->preco = $request->input('preco');
+        if ($produto->save()) {
+            return redirect('produtos');
+        }
+
+    }
 }
