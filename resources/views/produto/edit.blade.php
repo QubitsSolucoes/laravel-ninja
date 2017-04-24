@@ -19,7 +19,7 @@
         </div>
     @endif
 
-    {{Form::open(['route'=>['produtos.update',$produto->id],'method'=>'PUT'])}}
+    {{Form::open(['route'=>['produtos.update',$produto->id], 'enctype'=>'multipart/data', 'method'=>'PUT'])}}
 
     {{Form::label('referencia','Referência',['class'=>'prettyLabels'])}}
     {{Form::text('referencia',$produto->referencia,['class'=>'form-control','required','placeholder'=>'Referência'])}}
@@ -33,8 +33,11 @@
     {{Form::label('preco','Preço')}}
     {{Form::text('preco',$produto->preco,['class'=>'form-control','required','placeholder'=>'Preço'])}}
 
+    {{Form::label('fotoproduto','Foto')}}
+    {{Form::file('fotoproduto', ['class'=>'form-control','id'=>'fotoproduto'])}}
+
     <br>
 
-    {{Form::submit('Alterar',['class'=>'btn btn-default'])}}
+    {{Form::submit('Alterar',['class'=>'btn btn-warning'])}}
     {{Form::close()}}
 @endsection

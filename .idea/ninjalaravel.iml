@@ -219,5 +219,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="xbox-5.3" />
   </component>
 </module>

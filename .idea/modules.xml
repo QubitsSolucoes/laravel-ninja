@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ninjalaravel.iml" filepath="$PROJECT_DIR$/.idea/ninjalaravel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xbox-5.3/.idea/xbox-5.3.iml" filepath="$PROJECT_DIR$/../xbox-5.3/.idea/xbox-5.3.iml" />
     </modules>
   </component>
 </project>

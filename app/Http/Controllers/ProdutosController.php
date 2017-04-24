@@ -2,9 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Http\Requests;
 use App\Produto;
+use Illuminate\Http\Request;
 use Session;
 
 class ProdutosController extends Controller
@@ -19,6 +18,8 @@ class ProdutosController extends Controller
     public function show($id)
     {
         $produto = Produto::find($id);
+
+        //dd($produto);
 
         return view('produto.show', array('produto' => $produto));
     }
@@ -39,6 +40,23 @@ class ProdutosController extends Controller
         $produto->titulo = $request->input('titulo');
         $produto->descricao = $request->input('descricao');
         $produto->preco = $request->input('preco');
+
+        if ($request->hasFile('fotoproduto')) {
+            $imagem = $request->file('fotoproduto');
+            $num = rand(1111, 9999);
+            $dir = "img/produtos";
+            $extensao = $imagem->getClientOriginalExtension();
+            $nomeImagem = "imagem_".$num.".".$extensao;
+
+            $imagem->move($dir, $nomeImagem);
+
+            $produto['fotoproduto'] = $dir."/".$nomeImagem;
+        }
+
+        $produto->fotoproduto = $request->input('fotoproduto');
+
+        //dd($produto);
+
         if ($produto->save()) {
             return redirect('produtos');
         }
@@ -58,6 +76,13 @@ class ProdutosController extends Controller
             'referencia' => 'required|min:3',
             'titulo' => 'required|min:3',
         ]);
+
+        if ($request->hasFile('fotoproduto')) {
+            $imagem = $request->file('fotoproduto');
+            $nomearquivo = md5($id) . "." . $imagem->getClientOriginalExtension();
+            $request->file('fotoproduto')->move(public_path('./img/produtos/'), $nomearquivo);
+        }
+
         $produto->referencia = $request->input('referencia');
         $produto->titulo = $request->input('titulo');
         $produto->descricao = $request->input('descricao');

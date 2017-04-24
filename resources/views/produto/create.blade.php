@@ -12,7 +12,7 @@
             </ul>
         </div>
     @endif
-    
+
     <br>
 
     {{Form::open(['action' => 'ProdutosController@store'])}}
