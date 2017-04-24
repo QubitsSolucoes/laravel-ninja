@@ -46,11 +46,11 @@ class ProdutosController extends Controller
             $num = rand(1111, 9999);
             $dir = "img/produtos";
             $extensao = $imagem->getClientOriginalExtension();
-            $nomeImagem = "imagem_".$num.".".$extensao;
+            $nomeImagem = "imagem_" . $num . "." . $extensao;
 
             $imagem->move($dir, $nomeImagem);
 
-            $produto['fotoproduto'] = $dir."/".$nomeImagem;
+            $produto['fotoproduto'] = $dir . "/" . $nomeImagem;
         }
 
         $produto->fotoproduto = $request->input('fotoproduto');
@@ -92,6 +92,14 @@ class ProdutosController extends Controller
 
         Session::flash('mensagem', 'Produto alterado com sucesso.');
 
+        return redirect()->back();
+    }
+
+    public function destroy($id)
+    {
+        $produto = Produto::find($id);
+        $produto->delete();
+        Session::flash('mensagem', 'Produto excluído com sucesso!');
         return redirect()->back();
     }
 }
