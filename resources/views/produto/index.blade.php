@@ -10,7 +10,7 @@
             <div class="input-group">
                 {{ Form::text('busca',$busca,['class'=>'form-control', 'required', 'placeholder'=>'Digite o nome do produto']) }}
                 <span class="input-group-btn">
-                    {{ Form::submit('Buscar',['class'=>'btn btn-default']) }}
+                    {{ Form::submit('Buscar',['class'=>'btn btn-primary']) }}
                 </span>
             </div>
         </div>
@@ -43,4 +43,7 @@
             </div>
         @endforeach
     </div>
+
+    <!--Paginação-->
+    {{ $produtos->links() }}
 @endsection
