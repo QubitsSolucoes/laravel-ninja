@@ -12,7 +12,16 @@ class ProdutosController extends Controller
     {
         $produtos = Produto::all();
 
-        return view('produto.index', array('produtos' => $produtos));
+        return view('produto.index', array('produtos' => $produtos, 'busca' => null));
+    }
+
+    public function buscar(Request $request)
+    {
+        $produtos = Produto::where('titulo', 'LIKE',
+            '%' . $request->input('busca') . '%')->orwhere('descricao', 'LIKE',
+            '%' . $request->input('busca') . '%')->get();
+
+        return view('produto.index', array('produtos' => $produtos, 'busca' => $request->input('busca')));
     }
 
     public function show($id)

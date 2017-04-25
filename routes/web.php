@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::resource('produtos', 'ProdutosController');
+
+Route::post('produtos/buscar', 'ProdutosController@buscar');
